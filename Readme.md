@@ -17,15 +17,20 @@ Apply classes to an element from an object map
 ```js
 var applyClasses = require('@f/apply-classes')
 
+applyClasses({
+  show: true,
+  hide: false
+})
 ```
 
 ## API
 
-### applyClasses(arg)
+### applyClasses(map, element)
 
-- `arg` -
+- `map` - An object containing class names as keys and boolean values indicating whether they should be added or removed.
+- `element` - The DOM node you want to apply the class name operations in `map` to.
 
-**Returns:**
+**Returns:** `element`
 
 ## License
 
