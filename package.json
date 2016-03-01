@@ -2,7 +2,7 @@
   "name": "@f/apply-classes",
   "description": "Apply classes to an element from an object map",
   "repository": "git://github.com/micro-js/apply-classes.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
